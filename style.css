@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* headerbutton */
+
+button.btn-color{
+    width: 108px;
+    height: 44px;
+    padding: 0px,24px,0px,24px;
+    gap: 4px;
+    border: 1px solid #4F41A4;
+    color: #4F41A4;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+a.a-li{
+    font-size: 16px;
+    font-weight: 500px;
+    width: 78px;
+    height: 48px;
+}
+
+
+button.btn-color:hover{
+background-color: #4F41A4;
+color: white;
+}
+
+
+button.btn-get-color{
+    background-color: #4F41A4;
+    width: 196px;
+    height: 44px;
+    border-radius: 12px;
+    padding: 0px,24px,0px,24px;
+    color: white;
+    font-weight: 500;
+}
+
+
+.heading{
+color: #B3B3B3;
+}
+
+
+.paragraph{
+color: #7A7A7A;
+}
+
+
+.bg-color{
+    position: relative;
+    background-color: rgb(20, 20, 19);
+}
+
+
+.box-color{
+    background-color: #181818;
+}
+
+
+/* box-1 and box-3 */
+
+
+div.pos-rel-1{
+    position: relative;
+}
+
+
+img.img-box-1{
+
+}
+
+
+div.div-box-1{
+position: absolute;
+z-index: 2000;
+top: 65%;
+text-align: center;
+left: 12%;
+right: 12%;
+}
+
+
+img.img-box-2{
+    position: absolute;
+z-index: 1000;
+left: 6%;
+}
+
+
+img.img-box-3{
+position: absolute;
+top: 98%;
+left: 36%;
+z-index: 0;
+}
+
+
+div.pos-rel-2{
+    position: relative;
+}
+
+
+img.img-box-2-1{
+
+}
+
+
+div.div-box-2-2{
+    position: absolute;
+    z-index: 3;
+    top: 65%;
+    text-align: center;
+left: 12%;
+right: 12%;
+}
+
+
+img.img-box-2{
+    position: absolute;
+z-index: 2;
+left: 6%;
+}
+
+
+img.img-box-2-3{
+    position: absolute;
+    left: 36%;
+    top: 98%;
+    z-index: 1;
+}
+
+
+/* Crypto Part */
+
+h1.crypto-h1{
+    font-family: "Mukta", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #9685FF;
+    font-size: 110px;
+    text-shadow: -2px 5px 18px #9685FF;
+}
+
+
+p.crypto-h{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+
+p.crypto-p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+div.div-cryp{
+    border-radius: 10px;
+ /* Define the border style */
+ border-style: solid;
+  
+ /* Set the width of the border */
+ border-width: 2px;
+ 
+ /* Apply the gradient as the border image */
+ border-image: 
+   linear-gradient(to right, #2A282C, #181818)  /* Gradient definition */
+   1  /* Slice value */
+   0  /* Width value */
+   1; /* Outset value */
+ 
+ /* Ensure the gradient covers only the specified borders */
+ border-image-slice: 1;
+}
+
+
+/* platform */
+
+
+h1.plat-h1{
+    font-weight: 400;
+    font-size: 56px;
+}
+
+
+p.plat-p{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+/* Footer Part */
+h1.footer-h1{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 21.32px;
+}
+p.footer-p{
+    font-weight: 400;
+    font-size: 18.65px;
+}
